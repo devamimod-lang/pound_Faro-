@@ -159,6 +159,7 @@ add_library(PoundCore STATIC
         src/core/guest_state.c
         src/core/log.c
         src/core/safe_math.c
+        src/core/pound_switch2.c
 )
 target_include_directories(PoundCore PUBLIC src/core)
 set_target_properties(PoundCore PROPERTIES POSITION_INDEPENDENT_CODE ON)

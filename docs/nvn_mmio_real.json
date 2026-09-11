@@ -1,0 +1,32 @@
+{
+  "firmware_version": "23.0.0",
+  "nvn_mmio_base": "0x10000000",
+  "registers": [
+    {
+      "name": "GPU_Doorbell",
+      "offset": "0x00000000",
+      "size": "0x1000"
+    },
+    {
+      "name": "GPU_Interrupt",
+      "offset": "0x00001000",
+      "size": "0x1000"
+    },
+    {
+      "name": "GPU_Power",
+      "offset": "0x00002000",
+      "size": "0x1000"
+    },
+    {
+      "name": "NVN_Command_Submission",
+      "offset": "0x00004000",
+      "size": "0x1000"
+    },
+    {
+      "name": "SM86_Specific",
+      "offset": "0x00008000",
+      "size": "0x1000"
+    }
+  ],
+  "source": "firmware_23_0_0_stub"
+}
